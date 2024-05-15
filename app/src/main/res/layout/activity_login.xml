@@ -49,7 +49,7 @@
             android:id="@+id/emailError"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email Error"
+            android:text="@string/email_error"
             android:visibility="gone"
             android:fontFamily="@font/metropolis_regular"
             android:textColor="@color/primary"
@@ -69,14 +69,14 @@
             android:paddingLeft="20dp"
             android:background="@drawable/edit_text_bg"
             android:fontFamily="@font/metropolis_regular"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:maxLines="1" />
         <TextView
             android:id="@+id/passwordError"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Password Error"
+            android:text="@string/password_error"
             android:visibility="gone"
             android:fontFamily="@font/metropolis_regular"
             android:textColor="@color/primary"
@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_bg"
-            android:text="Login"
+            android:text="@string/login"
             android:layout_marginTop="40dp"
             android:elevation="10dp"
             />
@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/metropolis_regular"
-                android:text="Don't Have an Account? "
+                android:text="@string/don_t_have_an_account"
                 android:textColor="@color/mainText"
                 android:textSize="14sp"
                 />
@@ -129,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/metropolis_regular"
-                android:text=" Sign up"
+                android:text="@string/sign_up"
                 android:textColor="@color/primary"
                 android:textSize="14sp"
                 />

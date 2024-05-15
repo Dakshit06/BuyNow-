@@ -80,7 +80,7 @@
             android:fontFamily="@font/metropolis_light"
             android:textColor="@color/textAd"
             android:maxLines="1"
-            android:text="Brand Name"
+            android:text="@string/brand_name"
             android:textSize="13sp" />
 
         <TextView
@@ -90,7 +90,7 @@
             android:fontFamily="@font/metropolis_regular"
             android:textColor="@color/mainText"
             android:maxLines="1"
-            android:text="Product Name"
+            android:text="@string/product_name"
             android:textSize="15sp" />
 
         <TextView
@@ -100,7 +100,7 @@
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/metropolis_light"
             android:maxLines="1"
-            android:text="Product Price"
+            android:text="@string/product_price"
             android:textColor="@color/primary"
             android:textSize="13sp" />
 
@@ -121,7 +121,7 @@
             android:id="@+id/discountTv_predictProduct"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="-10%"
+            android:text="@string/_10"
             android:textSize="11sp"
             android:gravity="center"
             android:textColor="@color/white"
